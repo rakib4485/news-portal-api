@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.text-elipsis{
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+}
+.navbar-brand span{
+    background-color: #96E5D1;
+    padding:5px 10px;
+    border-radius: 10px;
+}
